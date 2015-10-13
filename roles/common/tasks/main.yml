@@ -1,6 +1,7 @@
 ---
 # file: roles/common/tasks/main.yml
 - name: Install core packages
+  sudo: yes
   apt: name={{item}} state=present update_cache=yes
   with_items:
     - build-essentials
