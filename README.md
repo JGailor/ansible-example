@@ -22,16 +22,16 @@ ansible-playbook site.yml -i experimental
 # experimental (just databases)
 ansible-playbook database.yml -i experimental
 
-# experimental (just job servers)
-ansible-playbook jobs.yml -i experimental
+# experimental (just webservers)
+ansible-playbook webserver.yml -i experimental
 ```
 
 ```
 # production (whole site)
 ansible-playbook site.yml -i production
 
-# production (just databases)
-ansible-playbook database.yml -i production
+# production (just webservers)
+ansible-playbook webserver.yml -i production
 
 # production (just job servers)
 ansible-playbook jobs.yml -i production
