@@ -1,0 +1,4 @@
+---
+# file: roles/puma/tasks/main.yml
+- name: Install puma (won't work)
+  command: "install puma --go"

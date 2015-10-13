@@ -1,0 +1,8 @@
+[database]
+db01.exp.fakingit.com
+
+[jobs]
+jobs01.exp.fakingit.com
+
+[webserver]
+web01.exp.fakingit.com

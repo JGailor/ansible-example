@@ -1,0 +1,13 @@
+---
+# file: roles/nginx/tasks/main.yml
+- name: Install nginx
+  sudo: yes
+  apt: name=nginx state=present
+
+- name: Install the ppv site configuration
+  sudo: yes
+  template: src=etc/nginx/sites-available/ppv.conf.j2 dest=/etc/nginx/sites-available/ppv.conf
+
+- name: Symlink the configuration to sites-enabled
+  sudo: yes
+  file: src=/etc/nginx/sites-available/ppv.conf dest=/etc/nginx/sites-enabled/ppv.conf state=link

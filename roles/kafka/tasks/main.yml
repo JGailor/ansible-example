@@ -1,0 +1,4 @@
+---
+# file: roles/kafka/tasks/main.yml
+- name: Install Kafka (this won't actually work)
+  apt: name=kafka state=present

@@ -1,0 +1,13 @@
+[database]
+db01.staging.fakingit.com
+db02.staging.fakingit.com
+
+[jobs]
+jobs01.staging.fakingit.com
+jobs02.staging.fakingit.com
+jobs03.staging.fakingit.com
+
+[webserver]
+web01.staging.fakingit.com
+web02.staging.fakingit.com
+web03.staging.fakingit.com

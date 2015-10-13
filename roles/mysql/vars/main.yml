@@ -1,0 +1,4 @@
+---
+# file: roles/mysql/vars/main.yml
+mysql:
+  port: 3306

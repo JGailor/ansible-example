@@ -1,0 +1,7 @@
+---
+# file: webserver.yml
+- hosts: webserver
+  roles:
+    - common
+    - nginx
+    - puma

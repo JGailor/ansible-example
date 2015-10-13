@@ -1,0 +1,7 @@
+---
+# file: roles/mysql/tasks/main.yml
+- name: Install mysql server
+  apt: name=mysql-server state=present
+
+- name: Install mysql client
+  apt: name=mysql-client state=present

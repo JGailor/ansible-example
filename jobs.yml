@@ -1,0 +1,5 @@
+---
+- hosts: jobs
+  roles:
+    - common
+    - kafka
